@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BitcoinCurrencyApp.MainPage">
+  <StackLayout>
+  <Label x:Name="MainLabel" Text="Hello World!" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Font="40" />
+  <Button x:Name="MainButton" Text="Get" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="OnClicked" />
+  </StackLayout>
+</ContentPage>
